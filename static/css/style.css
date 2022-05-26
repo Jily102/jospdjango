@@ -1,0 +1,186 @@
+:root {
+    --primary: #ED3833;
+    --secondary: #071622;
+    --roboto: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #191C26;
+    color: white;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: var(--secondary);
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: var(--primary);
+}
+
+.hero {
+    background-color: var(--secondary);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero--smt {
+    align-items: center;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: end;
+}
+
+.hero-image img {
+    width: 60%;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 10px solid #fff;
+}
+
+.hero-info {
+    align-items: center;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.greet {
+    font-size: 50px;
+    color: var(--primary);
+}
+
+.name {
+    font-size: 70px;
+    font-family: var(--roboto);
+}
+
+.job {
+    font-size: 60px;
+    font-family: var(--roboto);
+    color: var(--primary);
+    text-align: center;
+}
+
+@media(max-width:767px) {
+    .hero-image {
+        justify-content: center;
+    }
+
+    .hero-info {
+        padding: 0 0;
+    }
+
+    .greet {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .name {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .job {
+        font-size: 30px !important;
+    }
+}
+
+.lg-title {
+    color: var(--primary);
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: var(--roboto);
+}
+
+.text {
+    color: rgba(255, 255, 255, 0.671);
+}
+
+.a-name {
+    font-size: 25px;
+}
+
+.a-job {
+    font-size: 25px;
+}
+
+.a-job span {
+    color: var(--primary);
+}
+
+.p-i {
+    font-family: var(--roboto);
+}
+
+.skills .card {
+    border: none;
+    width: 11rem;
+    height: 10rem;
+    background-color: #F4F4F4;
+}
+
+.skills .card img {
+    width: 40%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills .card-footer {
+    background-color: #191C26;
+    border: none;
+    font-weight: bold;
+}
+
+.card-body {
+    color: black;
+}
+
+.c-text {
+    font-size: 30px;
+}
+
+.c-text span {
+    color: var(--primary);
+}
+
+label {
+    margin: 10px 0;
+}
+
+.form-control {
+    background-color: #F4F4F4;
+}
+
+textarea {
+    height: 100px;
+}
+
+footer {
+    height: 50px;
+    width: 100vw;
+    background-color: var(--secondary);
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 43%;
+}
+
+footer a span {
+    color: var(--primary);
+}
