@@ -93,6 +93,10 @@ body {
     .job {
         font-size: 30px !important;
     }
+
+    .lg-title {
+        padding-left: 1rem;
+    }
 }
 
 .lg-title {
@@ -171,6 +175,7 @@ footer {
     width: 100vw;
     background-color: var(--secondary);
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-top: auto;
 }
@@ -178,7 +183,6 @@ footer {
 footer a {
     text-decoration: none;
     color: #fff;
-    margin-left: 43%;
 }
 
 footer a span {
